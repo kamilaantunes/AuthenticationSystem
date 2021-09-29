@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
 const DataSchema = new mongoose.Schema({
     //definindo os campos da tabela
@@ -10,5 +10,5 @@ const DataSchema = new mongoose.Schema({
     timestamps:true
 });
 
-const produtos = mongoose.model('Produto', DataSchema);
-module.exports = produtos;
+const produtos = mongoose.model('Produto', DataSchema)
+module.exports = produtos
